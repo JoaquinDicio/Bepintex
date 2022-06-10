@@ -66,6 +66,7 @@ div.btn-whatsapp{
 .img-bg{
     background-image:url('../assets/img/young-couple-choosing-tiles-building-market\(1\).webp');
     height: 100vh;
+    min-height: 750px;
     background-position: top;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -73,9 +74,11 @@ div.btn-whatsapp{
 .img-bg .bg-opacity{
     background-color: #07275880;
     height: 100vh;
+    min-height: 750px;
 }
 .info-home{
     height: 100vh;
+    min-height: 750px;
     padding: 0 90px;
 }
 .info-home h3{
@@ -108,7 +111,7 @@ div.btn-whatsapp{
 .services-container{
     background-color: #808CFF;
     padding: 50px;
-    height: 85vh;
+    height: 750px;
 }
 .services-title{
     margin: 0 auto;
