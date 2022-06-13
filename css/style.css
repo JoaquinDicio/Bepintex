@@ -190,6 +190,9 @@ footer{
     margin: 30px 0 10px 0;
     font-weight: lighter;
 }
+footer .carousel{
+    position: relative;
+}
 /* RESPONSIVE SETTINGS */
 @media (max-width:992px) {
     /* navbar settings */
@@ -240,6 +243,13 @@ footer{
         margin: 0 3px;
         height: 98%;
     }
+    /* footer */
+    footer .map{
+        flex-direction: column-reverse;
+    }
+    footer .map .google-map{
+        height: 500px;
+    }
 }
 @media (max-width:525px) {
     .info-home{
@@ -278,5 +288,8 @@ footer{
     }
     div.container-fluid .navbar-brand{
         font-size: 35px;
+    }
+    footer .map .google-map{
+        height: 40vh;
     }
 }
