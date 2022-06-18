@@ -34,11 +34,12 @@ body nav.navbar{
 }
 
 div.container-fluid .navbar-brand{
-    font-weight: 800;
-    font-size: 40px;
-    font-family:'Rubik';
-    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    display: block;
     padding-left: 50px;
+    width: 220px;
+    height: 100px;
 }
 .navbar-nav .nav-item .nav-link{
     font-weight: 400;
@@ -131,9 +132,10 @@ div.btn-whatsapp{
 }
 /* SERVICES SECTION */
 .services-container{
-    background-color: #808CFF;
+    background: rgb(0,176,255);
+    background: linear-gradient(90deg, rgba(0,176,255,1) 0%, rgba(184,0,255,1) 25%, rgba(255,38,38,1) 50%, rgba(255,239,0,1) 75%, rgba(0,255,89,1) 100%);
     padding: 50px;
-    height: 750px;
+    height: max-content;
 }
 .services-title{
     margin: 0 auto;
@@ -141,14 +143,14 @@ div.btn-whatsapp{
 }
 .services-title h2{
     font-weight: 600;
-    color: var(--title-color);
+    color: var(--text-color);
     margin-bottom: 1px;
 }
 .services-title .sub{
     height: 3px;
     width: 80px;
     border-radius: 2px;
-    background-color: var(--title-color);
+    background-color: var(--text-color);
     margin: 0 auto;
 }
 .cards-container{
@@ -202,6 +204,11 @@ footer{
 .footer-info h5{
     margin-bottom: 10px;
 }
+.footer-info a .social-icon{
+    font-size: 22px;
+    margin: 0 5px;
+    color: var(--text-color);
+}
 .footer-info p{
     margin: 0;
     font-weight: 300;
@@ -219,9 +226,6 @@ footer .carousel{
     .navbar-toggler, .navbar-toggler.collapsed{
         background-color: #ffff;
         color: #ffff;
-    }
-    div.container-fluid .navbar-brand{
-        padding-left: 20px;
     }
     .navbar-nav .nav-item .nav-link{
         font-size: 20px;
@@ -301,8 +305,10 @@ footer .carousel{
         margin-bottom: 9rem;
     }
     div.container-fluid .navbar-brand{
-        font-size: 35px;
-    }
+        padding-left: 10px;
+        width: 200px;
+        height: 70px;
+    } 
     footer .map .google-map{
         height: 40vh;
     }
