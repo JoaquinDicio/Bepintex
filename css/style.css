@@ -38,7 +38,7 @@ div.container-fluid .navbar-brand{
     padding: 0;
     display: block;
     padding-left: 50px;
-    width: 220px;
+    width: 250px;
     height: 100px;
 }
 .navbar-nav .nav-item .nav-link{
@@ -132,8 +132,10 @@ div.btn-whatsapp{
 }
 /* SERVICES SECTION */
 .services-container{
-    background: rgb(0,176,255);
-    background: linear-gradient(90deg, rgba(0,176,255,1) 0%, rgba(184,0,255,1) 25%, rgba(255,38,38,1) 50%, rgba(255,239,0,1) 75%, rgba(0,255,89,1) 100%);
+    background-image: url('../assets/img/fondo-servicios.jpg');
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
     padding: 50px;
     height: max-content;
 }
@@ -294,6 +296,7 @@ footer .carousel{
     }
     .services-container{
         padding: 50px 15px;
+        background-repeat: repeat;
     }
     .services-title{
         margin-bottom: 35px;
