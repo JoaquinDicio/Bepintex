@@ -294,6 +294,10 @@ footer .carousel{
         margin-bottom: 3px;
         height: auto;
     }
+    .carousel-caption h5{
+        font-size: 16px;
+    }
+
     .services-container{
         padding: 50px 15px;
         background-repeat: repeat;
