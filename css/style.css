@@ -130,6 +130,10 @@ div.btn-whatsapp{
     padding:20px 20px;
     left: 0%;
 }
+.carousel-caption h5{
+    font-weight: 900;
+}
+
 /* SERVICES SECTION */
 .services-container{
     background-image: url('../assets/img/fondo-servicios.jpg');
@@ -145,14 +149,14 @@ div.btn-whatsapp{
 }
 .services-title h2{
     font-weight: 600;
-    color: var(--title-color);
+    color: black;
     margin-bottom: 1px;
 }
 .services-title .sub{
     height: 3px;
     width: 80px;
     border-radius: 2px;
-    background-color: var(--title-color);
+    background-color: black;
     margin: 0 auto;
 }
 .cards-container{
